@@ -20,7 +20,7 @@ createApp(App)
     providers: {
       instagram: {
         clientId: "880402616271921",
-        // clientSecret: "b617c27b7eccc86ba6d0e44169829a48",
+        clientSecret: "b617c27b7eccc86ba6d0e44169829a48",
         redirectUri: window.location.href, // Your client app URL
         popupOptions: { width: 452, height: 633, top: top, left: left },
         scope: ["user_profile", "user_media"],
